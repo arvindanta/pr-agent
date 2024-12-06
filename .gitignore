@@ -9,3 +9,5 @@ dist/
 build/
 .DS_Store
 docs/.cache/
+.venv/
+myenv
