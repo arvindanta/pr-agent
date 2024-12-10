@@ -8,7 +8,7 @@ from pr_agent.algo.ai_handlers.base_ai_handler import BaseAiHandler
 from pr_agent.config_loader import get_settings
 from pr_agent.log import get_logger
 
-OPENAI_RETRIES = 5
+OPENAI_RETRIES = 2
 
 
 class OpenAIHandler(BaseAiHandler):
